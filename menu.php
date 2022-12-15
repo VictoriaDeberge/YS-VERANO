@@ -14,7 +14,7 @@
               <a class="nav-link" href="contacts.php">Contato</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="loja.php">Loja física</a>
+              <a class="nav-link" href="blog.php">Blog</a>
             </li>
              
         
@@ -28,6 +28,7 @@
                 <a class="dropdown-item" href="roupas.php">Roupas</a>
                 <a class="dropdown-item" href="maio.php">Maiôs</a>
                 <a class="dropdown-item" href="biquini.php">Biquínis</a>
+                
                 
                 
               </div>
