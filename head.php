@@ -11,10 +11,10 @@
  <!-- Bootstrap CSS -->
  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
    <!-- Carrega folhas de estilo do aplicativo -->
-   <link rel="stylesheet" href="/style.css" />
+   <link rel="stylesheet" href="/style.css/">
  
    <!-- Folhas de estilos de cada página serão carregadas aqui -->
-   <link rel="stylesheet" href="" id="pageCSS">
+   <link rel="stylesheet" href="#" id="pageCSS">
    <!-- 
       Importa a biblioteca Font Awesome via CDN
       Para saber mais:

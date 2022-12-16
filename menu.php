@@ -1,6 +1,7 @@
 <!--caebçalho-->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="index.php">Ys Verano</a>
+        <a class="navbar-brand" href="index.php">
+        <img src="img\logo1.png" alt="Bootstrap" width="50" height="45"> Ys Verano</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -25,9 +26,9 @@
                Produtos
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="roupas.php">Roupas</a>
                 <a class="dropdown-item" href="maio.php">Maiôs</a>
                 <a class="dropdown-item" href="biquini.php">Biquínis</a>
+                <a class="dropdown-item" href="divercos.php">Diverços</a>
                 
                 
                 

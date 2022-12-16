@@ -64,7 +64,7 @@ require_once 'menu.php';
     </wrap>
 
 <?
-require_once 'footer.php'
+require_once 'footer.php';
 ?>
 
 
