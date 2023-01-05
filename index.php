@@ -21,6 +21,11 @@ require_once 'menu.php';
 </div>
 
 <!--cards-->
+<div class=" text-center">
+            <h1>Produtos em destaque</h1>
+            <P>Mais Vendidos</P>
+
+      </div>
 <div class="container-fluid texto">
     <div class="row">
    
@@ -57,6 +62,8 @@ require_once 'menu.php';
   </div>
 </div>
     </div>
+
+
 
 </div>
 </div>
