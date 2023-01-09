@@ -12,10 +12,10 @@
               <a class="nav-link" href="index.php">Home <span class="sr-only">(página atual)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contacts.php">Contato</a>
+              <a class="nav-link" href="#footer2">Contato</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="blog.php">Blog</a>
+              <a class="nav-link" href="pages/blog/blog.php">Blog</a>
             </li>
              
         
@@ -35,8 +35,8 @@
             </li>
           </ul>
           <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+            <input class="form-control mr-sm-2" type="search" placeholder="O que você procura?" aria-label="Pesquisar">
+            <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Pesquisar</button>
           </form>
         </div>
       </nav>

@@ -1,0 +1,44 @@
+/**menu**/
+.menu{
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.my-sm-0{
+   background-color: #000;
+   
+}
+
+/** index**/
+#verano{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 2rem;
+}
+.verano p{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#tema{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 1.8rem;
+margin-top: 1.8rem;
+
+}
+#fire{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+/** index cards**/
+.card{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/**footer**/
+.footer{
+  margin-top: 5%;
+}
+.mapa iframe{
+   width: auto;
+   height: 15rem;
+}
+.sociais {
+   font-size: 1.7rem;
+}

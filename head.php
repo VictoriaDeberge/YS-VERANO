@@ -11,9 +11,8 @@
  <!-- Bootstrap CSS -->
  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
    <!-- Carrega folhas de estilo do aplicativo -->
-   <link rel="stylesheet" type="text/css" href="#" media="screen" />
- 
-
+  
+   <link rel="stylesheet" type="text/css" href="style.css">
    <!-- 
       Importa a biblioteca Font Awesome via CDN
       Para saber mais:
@@ -23,3 +22,4 @@
     <title>YS VERANO</title>
 </head>
 <body>
+
