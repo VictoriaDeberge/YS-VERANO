@@ -25,15 +25,24 @@ margin-top: 1.8rem;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
    
 }
+
+/**index estampas**/
+#estampa {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 1.8rem;
+margin-top: 1.8rem;
+}
+
 /** index cards**/
 .card{
    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   align-items: center;
 }
 
 
 /**footer**/
 .footer{
-  margin-top: 5%;
+  margin-top: 2%;
 }
 .mapa iframe{
    width: auto;

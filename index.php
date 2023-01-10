@@ -12,12 +12,34 @@ require_once 'menu.php';
       </div>
 
       <div class="card mb-3">
-  <img src="img\beautiful-tanned-fit-caucasian-woman-bronze-shiny-skin-in-bikini-with-coconut-oil-by-blue-swimming-pool-sunny-day.jpg" class="card-img-top" alt="...">
+  <img src="img\beautiful-tanned-fit-caucasian-woman-bronze-shiny-skin-in-bikini-with-coconut-oil-by-blue-swimming-pool-sunny-day.jpg"  max-width="1080" width="100%" height="auto" class="card-img-top" alt="...">
  
   </div>
 </div>
 
+<!--linkando imagens das estampas-->
+<div class="text-center estampas">
+<h1 id=estampa>ESTAMPAS</h1>
+<div aling="left colorido">
+<a href="#">
+ <img src="img\estampa-arco-iris.png" width="210" height="205"></a>
+</div>
+
+<div aling="center liso">
+<a href="#">
+  <img src="img\lisa-estampa.png" width="210" height="205"></a>
+</div>
+
+
+
 <!--cards-->
+
+</div>
+
+
+
+
+
 <div class=" text-center">
             <h1 id="tema">NOVA COLEÇÃO</h1>
             <p id="fire">Coleção Fire Body</p>
@@ -32,6 +54,22 @@ require_once 'menu.php';
   <img src="img\woman-in-bikini-on-a-vacation.jpg" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">Conjunto ---</h5>
+    <!--avaliação-->
+    <a href="javascript:void(0)" onclick="Avaliar(1)">
+    <i class="fa-regular fa-star" id="s1"></a></i>
+    <a href="javascript:void(0)" onclick="Avaliar(2)">
+    <i class="fa-regular fa-star" id="s2"></a></i>
+
+    <a href="javascript:void(0)" onclick="Avaliar(3)">
+    <i class="fa-regular fa-star" id="s3"></a></i>
+
+    <a href="javascript:void(0)" onclick="Avaliar(4)">
+    <i class="fa-regular fa-star" id="s4"></a></i>
+
+    <a href="javascript:void(0)" onclick="Avaliar(5)">
+    <i class="fa-regular fa-star" id="s5"></a></i>
+    <p id="rating"></p>
+    <!--end avaliação-->
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
     <a href="#" class="btn btn-dark">Adicionar ao Carrinho</a>
   </div>
@@ -44,6 +82,22 @@ require_once 'menu.php';
   <img src="img\woman-in-bikini-on-a-vacation.jpg" class="card-img-top" alt="...">
   <div class="card-body">
   <h5 class="card-title">Conjunto ---</h5>
+  <!--avaliação-->
+  <a href="javascript:void(0)" onclick="Avaliar(1)">
+    <i class="fa-regular fa-star" id="s1"></a></i>
+    <a href="javascript:void(0)" onclick="Avaliar(2)">
+    <i class="fa-regular fa-star" id="s2"></a></i>
+
+    <a href="javascript:void(0)" onclick="Avaliar(3)">
+    <i class="fa-regular fa-star" id="s3"></a></i>
+
+    <a href="javascript:void(0)" onclick="Avaliar(4)">
+    <i class="fa-regular fa-star" id="s4"></a></i>
+
+    <a href="javascript:void(0)" onclick="Avaliar(5)">
+    <i class="fa-regular fa-star" id="s5"></a></i>
+    <p id="rating"></p>
+    <!--end avaliação-->
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
     <a href="#" class="btn btn-dark">Adicionar ao Carrinho</a>
   </div>
@@ -55,6 +109,22 @@ require_once 'menu.php';
   <img src="img\woman-in-bikini-on-a-vacation.jpg" class="card-img-top" alt="...">
   <div class="card-body">
   <h5 class="card-title">Conjunto ---</h5>
+  <!--avaliação-->
+  <a href="javascript:void(0)" onclick="Avaliar(1)">
+    <i class="fa-regular fa-star" id="s1"></a></i>
+    <a href="javascript:void(0)" onclick="Avaliar(2)">
+    <i class="fa-regular fa-star" id="s2"></a></i>
+
+    <a href="javascript:void(0)" onclick="Avaliar(3)">
+    <i class="fa-regular fa-star" id="s3"></a></i>
+
+    <a href="javascript:void(0)" onclick="Avaliar(4)">
+    <i class="fa-regular fa-star" id="s4"></a></i>
+
+    <a href="javascript:void(0)" onclick="Avaliar(5)">
+    <i class="fa-regular fa-star" id="s5"></a></i>
+    <p id="rating"></p>
+    <!--end avaliação-->
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
     <a href="#" class="btn btn-dark">Adicionar ao Carrinho</a>
   </div>
@@ -65,6 +135,22 @@ require_once 'menu.php';
   <img src="img\woman-in-bikini-on-a-vacation.jpg" class="card-img-top" alt="...">
   <div class="card-body">
   <h5 class="card-title">Conjunto ---</h5>
+  <!--avaliação-->
+  <a href="javascript:void(0)" onclick="Avaliar(1)">
+    <i class="fa-regular fa-star" id="s1"></a></i>
+    <a href="javascript:void(0)" onclick="Avaliar(2)">
+    <i class="fa-regular fa-star" id="s2"></a></i>
+
+    <a href="javascript:void(0)" onclick="Avaliar(3)">
+    <i class="fa-regular fa-star" id="s3"></a></i>
+
+    <a href="javascript:void(0)" onclick="Avaliar(4)">
+    <i class="fa-regular fa-star" id="s4"></a></i>
+
+    <a href="javascript:void(0)" onclick="Avaliar(5)">
+    <i class="fa-regular fa-star" id="s5"></a></i>
+    <p id="rating"></p>
+    <!--end avaliação-->
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
     <a href="#" class="btn btn-dark">Adicionar ao Carrinho</a>
   </div>
