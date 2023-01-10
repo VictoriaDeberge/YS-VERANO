@@ -20,21 +20,20 @@ require_once 'menu.php';
 <!--linkando imagens das estampas-->
 <div class="text-center estampas">
 <h1 id=estampa>ESTAMPAS</h1>
-<div aling="left colorido">
-<a href="#">
- <img src="img\estampa-arco-iris.png" width="210" height="205"></a>
 </div>
 
-<div aling="center liso">
+<div class="text-center colorido">
 <a href="#">
-  <img src="img\lisa-estampa.png" width="210" height="205"></a>
+ <img src="img\estampa-arco-iris.png" width="210" height="205"></a><!--link 2--><a href="#"><img src="img\estampa-arco-iris.png" width="210" height="205"> </a><!--link tres-->  <a href="#"> <img src="img\lisa-estampa.png" width="210" height="205"></a> <!--link 4--><a href="#"><img src="img\lisa-estampa.png" width="210" height="205"></a>
 </div>
+
+
 
 
 
 <!--cards-->
 
-</div>
+
 
 
 

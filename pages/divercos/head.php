@@ -13,11 +13,6 @@
    <!-- Carrega folhas de estilo do aplicativo -->
   
    <link rel="stylesheet" type="text/css" href="style.css">
-   
-
-
-   
-
    <!-- 
       Importa a biblioteca Font Awesome via CDN
       Para saber mais:
