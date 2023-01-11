@@ -24,7 +24,7 @@ require_once 'menu.php';
 
 <div class="text-center colorido">
 <a href="#">
- <img src="img\estampa-arco-iris.png" width="210" height="205"></a><!--link 2--><a href="#"><img src="img\estampa-arco-iris.png" width="210" height="205"> </a><!--link tres-->  <a href="#"> <img src="img\lisa-estampa.png" width="210" height="205"></a> <!--link 4--><a href="#"><img src="img\lisa-estampa.png" width="210" height="205"></a>
+ <img src="img\estampa-arco-iris.png" width="110" height="105"></a><!--link 2--><a href="#"><img src="img\estampa-arco-iris.png" width="110" height="105"> </a><!--link tres-->  <a href="#"> <img src="img\lisa-estampa.png" width="110" height="105"></a> <!--link 4--><a href="#"><img src="img\lisa-estampa.png" width="110" height="105"></a>
 </div>
 
 
@@ -34,7 +34,7 @@ require_once 'menu.php';
 <!--cards-->
 
 
-
+<!-- VISITAR CANAL GIRL CODING PRA TENTAR DEIXAR RESPONSIVO-->
 
 
 

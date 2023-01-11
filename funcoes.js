@@ -31,16 +31,16 @@ function Avaliar(estrela) {
     //ESTRELA 4
    if (estrela == 4){ 
     if (s4 == url + "fa-regular fa-star") {
-    document.getElementById("s1").class="fa-solid fa-star";
-    document.getElementById("s2").class="fa-solid fa-star";
-    document.getElementById("s3").class="fa-solid fa-star";
-    document.getElementById("s4").class="fa-solid fa-star";
+    document.getElementById("s1").class = "fa-solid fa-star";
+    document.getElementById("s2").class = "fa-solid fa-star";
+    document.getElementById("s3").class = "fa-solid fa-star";
+    document.getElementById("s4").class = "fa-solid fa-star";
     document.getElementById("s5").class = "fa-regular fa-star";
     avaliacao = 4;
     } else {
-    document.getElementById("s1").class="fa-solid fa-star";
-    document.getElementById("s2").class="fa-solid fa-star";
-    document.getElementById("s3").class="fa-solid fa-star";
+    document.getElementById("s1").class = "fa-solid fa-star";
+    document.getElementById("s2").class = "fa-solid fa-star";
+    document.getElementById("s3").class = "fa-solid fa-star";
     document.getElementById("s4").class = "fa-regular fa-star";
     document.getElementById("s5").class = "fa-regular fa-star";
     avaliacao = 3;
@@ -49,9 +49,9 @@ function Avaliar(estrela) {
    //ESTRELA 3
    if (estrela == 3){ 
     if (s3 == url + "fa-regular fa-star") {
-    document.getElementById("s1").class="fa-solid fa-star";
-    document.getElementById("s2").class="fa-solid fa-star";
-    document.getElementById("s3").class="fa-solid fa-star";
+    document.getElementById("s1").class ="fa-solid fa-star";
+    document.getElementById("s2").class = "fa-solid fa-star";
+    document.getElementById("s3").class = "fa-solid fa-star";
     document.getElementById("s4").class = "fa-regular fa-star";
     document.getElementById("s5").class = "fa-regular fa-star";
     avaliacao = 3;
