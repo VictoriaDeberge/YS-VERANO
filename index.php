@@ -11,11 +11,13 @@ require_once 'menu.php';
 
       </div>
 
-      <div class="card mb-3">
-  <img src="img\beautiful-tanned-fit-caucasian-woman-bronze-shiny-skin-in-bikini-with-coconut-oil-by-blue-swimming-pool-sunny-day.jpg"  max-width="1080" width="100%" height="auto" class="card-img-top" alt="...">
+      <div class="cards mb-3">
+        
+    <img  src="img\verao.png"  max-width="1080" width="100%" height="auto" class="card-img-top" alt="...">
  
   </div>
 </div>
+</wrap>
 
 <!--linkando imagens das estampas-->
 <div class="text-center estampas">
@@ -24,18 +26,8 @@ require_once 'menu.php';
 
 <div class="text-center colorido">
 <a href="#">
- <img src="img\estampa-arco-iris.png" width="110" height="105"></a><!--link 2--><a href="#"><img src="img\estampa-arco-iris.png" width="110" height="105"> </a><!--link tres-->  <a href="#"> <img src="img\lisa-estampa.png" width="110" height="105"></a> <!--link 4--><a href="#"><img src="img\lisa-estampa.png" width="110" height="105"></a>
+ <img class="stamp" src="img\estampa-arco-iris.png" width="160" height="155"></a><!--link 2--><a href="#"><img  class="stamp" src="img\estampa-arco-iris.png" width="160" height="155"> </a><!--link tres-->  <a href="#"> <img class="stamp" src="img\lisa-estampa.png" width="160" height="155"></a> <!--link 4--><a href="#"><img class="stamp" src="img\lisa-estampa.png" width="160" height="155"></a><!--link quatro--><img class="stamp" src="img\estampa-arco-iris.png" width="160" height="155"></a>
 </div>
-
-
-
-
-
-<!--cards-->
-
-
-<!-- VISITAR CANAL GIRL CODING PRA TENTAR DEIXAR RESPONSIVO-->
-
 
 
 
@@ -45,124 +37,94 @@ require_once 'menu.php';
     
 
       </div>
-<div class="container-fluid texto">
-    <div class="row">
-   
-    <div class="col-md-3 text-center">
-<div class="card" style="width: 18rem;">
-  <img src="img\woman-in-bikini-on-a-vacation.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Conjunto ---</h5>
-    <!--avaliação-->
-    <a href="javascript:void(0)" onclick="Avaliar(1)">
-    <i class="fa-regular fa-star" id="s1"></a></i>
-    <a href="javascript:void(0)" onclick="Avaliar(2)">
-    <i class="fa-regular fa-star" id="s2"></a></i>
+      
+<!-- VISITAR CANAL GIRL CODING PRA TENTAR DEIXAR RESPONSIVO-->
 
-    <a href="javascript:void(0)" onclick="Avaliar(3)">
-    <i class="fa-regular fa-star" id="s3"></a></i>
-
-    <a href="javascript:void(0)" onclick="Avaliar(4)">
-    <i class="fa-regular fa-star" id="s4"></a></i>
-
-    <a href="javascript:void(0)" onclick="Avaliar(5)">
-    <i class="fa-regular fa-star" id="s5"></a></i>
-    <p id="rating"></p>
-    <!--end avaliação-->
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-dark">Adicionar ao Carrinho</a>
-  </div>
-</div>
-    </div>
-
-
-    <div class="col-md-3 text-center">
-<div class="card" style="width: 18rem;">
-  <img src="img\woman-in-bikini-on-a-vacation.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-  <h5 class="card-title">Conjunto ---</h5>
-  <!--avaliação-->
-  <a href="javascript:void(0)" onclick="Avaliar(1)">
-    <i class="fa-regular fa-star" id="s1"></a></i>
-    <a href="javascript:void(0)" onclick="Avaliar(2)">
-    <i class="fa-regular fa-star" id="s2"></a></i>
-
-    <a href="javascript:void(0)" onclick="Avaliar(3)">
-    <i class="fa-regular fa-star" id="s3"></a></i>
-
-    <a href="javascript:void(0)" onclick="Avaliar(4)">
-    <i class="fa-regular fa-star" id="s4"></a></i>
-
-    <a href="javascript:void(0)" onclick="Avaliar(5)">
-    <i class="fa-regular fa-star" id="s5"></a></i>
-    <p id="rating"></p>
-    <!--end avaliação-->
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-dark">Adicionar ao Carrinho</a>
-  </div>
-</div>
-    </div>
-
-    <div class="col-md-3 text-center">
-<div class="card" style="width: 18rem;">
-  <img src="img\woman-in-bikini-on-a-vacation.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-  <h5 class="card-title">Conjunto ---</h5>
-  <!--avaliação-->
-  <a href="javascript:void(0)" onclick="Avaliar(1)">
-    <i class="fa-regular fa-star" id="s1"></a></i>
-    <a href="javascript:void(0)" onclick="Avaliar(2)">
-    <i class="fa-regular fa-star" id="s2"></a></i>
-
-    <a href="javascript:void(0)" onclick="Avaliar(3)">
-    <i class="fa-regular fa-star" id="s3"></a></i>
-
-    <a href="javascript:void(0)" onclick="Avaliar(4)">
-    <i class="fa-regular fa-star" id="s4"></a></i>
-
-    <a href="javascript:void(0)" onclick="Avaliar(5)">
-    <i class="fa-regular fa-star" id="s5"></a></i>
-    <p id="rating"></p>
-    <!--end avaliação-->
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-dark">Adicionar ao Carrinho</a>
-  </div>
-</div>
-    </div>
-    <div class="col-md-3 text-center">
-<div class="card" style="width: 18rem;">
-  <img src="img\woman-in-bikini-on-a-vacation.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-  <h5 class="card-title">Conjunto ---</h5>
-  <!--avaliação-->
-  <a href="javascript:void(0)" onclick="Avaliar(1)">
-    <i class="fa-regular fa-star" id="s1"></a></i>
-    <a href="javascript:void(0)" onclick="Avaliar(2)">
-    <i class="fa-regular fa-star" id="s2"></a></i>
-
-    <a href="javascript:void(0)" onclick="Avaliar(3)">
-    <i class="fa-regular fa-star" id="s3"></a></i>
-
-    <a href="javascript:void(0)" onclick="Avaliar(4)">
-    <i class="fa-regular fa-star" id="s4"></a></i>
-
-    <a href="javascript:void(0)" onclick="Avaliar(5)">
-    <i class="fa-regular fa-star" id="s5"></a></i>
-    <p id="rating"></p>
-    <!--end avaliação-->
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-dark">Adicionar ao Carrinho</a>
-  </div>
-</div>
-    </div>
+ <!-- cards-->
+<div class="row">
+      <div class="card green">
+        <img class="image" src="img\portrait-young-beautiful-sexy-woman-with-large-breasts-carefree-model-wearing-pure-red-lingerie-hot-tanned-blonde-posing-near-wall-studio-summer-swimwear-bathing-suit-isolated.jpg" alt="money" />
+        
+        <h2>Conjunto Peace Love.
+        </h2>
+        <p>R$ 200,00</p>
+        <p>Em até 3x de R$66,66 sem juros</p>
+        <a  href="biquini.php" class="btn btn-dark">Adicionar ao Carrinho</a>
+      </div>
  
 
+      <div class="card blue">
+        <img class="image" src="img\fff74d63-a2e8-436d-818a-3b4bb31e74ae.png" alt="settings" />
+        <h2>Conjunto Peace Love.
+        </h2>
+        <p>R$ 200,00</p>
+        <p>Em até 3x de R$66,66 sem juros</p>
+        <a  href="#" class="btn btn-dark">Adicionar ao Carrinho</a>
+      </div>
+ 
+      <div class="card red">
+        <img class="image" src="img\high-fashion-portrait-of-young-beautiful-sexy-woman-with-big-breasts-carefree-model-wearing-black-lingerie-hot-tanned-blonde-isolated-on-white-in-studio-in-summer-swimwear-bathing-suit.jpg" alt="article" />
+        <h2>Conjunto Peace Love.
+        </h2>
+        <p>R$ 200,00</p>
+        <p>Em até 3x de R$66,66 sem juros</p>
+        <a  href="#" class="btn btn-dark">Adicionar ao Carrinho</a>
+      </div>
+      </div>
 
+      <!--OUTLET-->
 
+      <div class="outlet text-center">
+      <h1>OUTLET</h1>
+    
+      
+    </div>
+
+      <div class="row">
+      <div class="card green">
+        <img class="image" src="img\portrait-young-beautiful-sexy-woman-with-large-breasts-carefree-model-wearing-pure-red-lingerie-hot-tanned-blonde-posing-near-wall-studio-summer-swimwear-bathing-suit-isolated.jpg" alt="money" />        
+        <h2>Conjunto Peace Love.
+        </h2>
+        <p>R$ 200,00</p>
+        <p>Em até 3x de R$66,66 sem juros</p>
+        <a  href="#" class="btn btn-dark">Adicionar ao Carrinho</a>
+      </div>
+ 
+      <div class="card blue">
+     
+        <img class="image" src="img\fff74d63-a2e8-436d-818a-3b4bb31e74ae.png" alt="settings" />
+        <h2>Conjunto Peace Love.
+        </h2>
+        <p>R$ 200,00</p>
+        <p>Em até 3x de R$66,66 sem juros</p>
+        <a  href="#" class="btn btn-dark">Adicionar ao Carrinho</a>
+      </div>
+ 
+     <div class="card red">
+        <img class="image" src="img\high-fashion-portrait-of-young-beautiful-sexy-woman-with-big-breasts-carefree-model-wearing-black-lingerie-hot-tanned-blonde-isolated-on-white-in-studio-in-summer-swimwear-bathing-suit.jpg" alt="article" />
+        <h2>Conjunto Peace Love.
+        </h2>
+        <p>R$ 200,00</p>
+        <p>Em até 3x de R$66,66 sem juros</p>
+        <a  href="#" class="btn btn-dark">Adicionar ao Carrinho</a>
+      </div>
+      </div>
+    <!--end avaliação-->
+<div class="vermais text-center">
+  <h1>YS VERANO MODA PRAIA</h1>
+  <p>A Ys Verano é uma da Marcas de Moda Praia que tem uma dais maiores empresas do setor têxtil do mundo. Está em destaque no cenário da moda desdde que entrou no mercado.</p>
+  <a  href="vermais.php" class="btn  mais">Ver mais+</a>
 </div>
-</div>
 
-    </wrap>
+
+    
+
+
+
+
+
+
+
 
 <?php
 require_once 'footer.php';

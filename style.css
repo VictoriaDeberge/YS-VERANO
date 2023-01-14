@@ -1,55 +1,126 @@
+
+
+
+
+
 /**menu**/
 .menu{
-   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-family: "Poppins", sans-serif;
 }
 .my-sm-0{
    background-color: #000;
    
 }
 .text-info{
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-family: "Poppins", sans-serif;
    color: #000;
 }
 
 
 /** index**/
 #verano{
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-family: "Poppins", sans-serif;
 font-size: 2rem;
 }
 .verano p{
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-family: "Poppins", sans-serif;
 }
 #tema{
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-family: "Poppins", sans-serif;
 font-size: 1.8rem;
 margin-top: 1.8rem;
 
 }
 #fire{
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
-   
+   font-family: "Poppins", sans-serif;
 }
 
+.vermais{
+   margin-top: 5%;
+}
+   
+.mais{
+   margin-top: 1%;
+   
+   border-radius: 5px;
+   box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+   color: white;
+   background-color: #000;
+}
 
 
 /**index estampas**/
+
+
+
 #estampa {
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-font-size: 1.8rem;
-margin-top: 1.8rem;
+font-family: "Poppins", sans-serif;
+font-size: 2rem;
+margin-top: 2rem;
+
+}
+.stamp{
+   transition: all 0.3s ease-out; 
+}
+.stamp:hover {
+   transform: translateY(-5px);
+   cursor: pointer;
 }
 
 /** index cards**/
-.card{
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+.card {
+   border-radius: 5px;
+   box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+   padding: 30px;
+   margin: 20px;
+   width: 400px;
+   transition: all 0.3s ease-out;
+ }
+ .card:hover {
+   transform: translateY(-5px);
+   cursor: pointer;
+ }
+  
+ .card p {
+   color: #a3a5ae;
+   font-size: 16px;
+ }
+
+  
+ .image {
    align-items: center;
+   max-width: 450px;
+   max-height: 400px;
+ }
+ body {
+   font-family: "Poppins", sans-serif;
+   background-color: #fafafa;
+ }
+  
+ .row {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+
+/** index OUTLET**/
+
+.outlet h1{
+   margin-top: 6%;
+   font-family: "Poppins", sans-serif;
+   box-shadow:10px 1px 5px rgba(255, 255, 255, 0.22);
+   background-color: #000;
+   color: #fafafa;
 }
+/**index vermais**/
+
 
 
 /**footer**/
 .footer{
-  margin-top: 2%;
+  margin-top: 7%;
 }
 .mapa iframe{
    width: auto;

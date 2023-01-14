@@ -21,9 +21,9 @@
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                Produtos</a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="pages/maio/maio.php">Maiôs</a>
-                <a class="dropdown-item" href="pages/biquinis/biquini.php">Biquínis</a>
-                <a class="dropdown-item" href="pages/divercos/divercos.php">Diverços</a>
+                <a class="dropdown-item" href="maio.php">Maiôs</a>
+                <a class="dropdown-item" href="biquini.php">Biquínis</a>
+                <a class="dropdown-item" href="divercos.php">Diverços</a>
         
               </div>
             </li>

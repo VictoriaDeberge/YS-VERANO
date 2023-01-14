@@ -4,10 +4,10 @@
         <div class="col-md-3">
           <h4>YS VERANO</h4>
           <p><a href="index.php">Home</a></p>
-          <p><a href="pages/contacts/contato.php">Maiôs</a></p>
-          <p><a href="pages/biquinis/biquinis.php">Biquínis</a></p>
-          <p><a href="pages/maio/maio.php">Diverços</a></p>
-          <p><a href="pages/contacts/contato.php">Blog</a></p>
+          <p><a href="maio.php">Maiôs</a></p>
+          <p><a href="biquini.php">Biquínis</a></p>
+          <p><a href="divercos.php">Diverços</a></p>
+          <p><a href="blog.php">Blog</a></p>
          
         </div>
 
@@ -16,7 +16,7 @@
     <p> <i class="fa-solid fa-phone"> </i>(21) 90000-0000 </p>
 
        <p> <i class="fa-solid fa-envelope"></i> ysverano@gmail.com</p>
-       <p><a href="pages/profile/profile.php"><i class="fa-solid fa-user"></i>Área do Cliente</a></p>
+       <p><a href="polices.php"><i class="fa-solid fa-circle-question"></i>FAQ</a></p>
         </div>
 
         <div class="col-md-3">
