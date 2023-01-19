@@ -2,33 +2,42 @@
 
 CREATE DATABASE YSVERANO CHARACTER SET UTF8 COLLATE UTF8_GENERAL_CI;
 
-USE YSVERANO;
 
-CREATE TABLE ENDERECO (
-CEP CHAR(9) PRIMARY KEY,
-RUA VARCHAR(60) NOT NULL,
-BAIRRO VARCHAR(40) NOT NULL,
-CIDADE VARCHAR(40) NOT NULL,
-UF CHAR(2) NOT NULL);
+CREATE TABLE CATEGORIA(
+ID_CATEGORIA INT PRIMARY KEY,
+DESCRICAO VARCHAR(200));
 
 CREATE TABLE CLIENTE (
-ID_CLIENTE SERIAL PRIMARY KEY
+ID_CLIENTE INT PRIMARY KEY,
 NOME VARCHAR(60) NOT NULL,
 CPF CHAR(14) NOT NULL,
 TELEFONE VARCHAR(15) NOT NULL,
-EMAIL VARCHAR(20) 
+EMAIL VARCHAR(20) ,
 CEP CHAR(9) NOT NULL,
 NUMEROCASA SMALLINT NOT NULL,
 COMPLEMENTO VARCHAR(30),
-FOTO VARCHAR(255),
-FOREIGN KEY(CEP) REFERENCES ENDERECO(CEP));
+FOTO VARCHAR(255));
+
+
+CREATE TABLE FORNECEDOR(
+	ID_FORNECEDOR INT PRIMARY KEY,
+	NOME VARCHAR(200),
+	TELEFONE VARCHAR(15) NOT NULL,
+	EMAIL VARCHAR(20) NOT NULL,
+	CEP CHAR(9) NOT NULL,
+    NUMEROCASA SMALLINT NOT NULL,
+    COMPLEMENTO VARCHAR(30),
+	CONTA_BANCARIA INT NULL,
+	AGENCIA INT NULL,
+	CONTA INT NULL);
+
+
 
 CREATE TABLE VENDEDOR (
-ID_VENDEDOR SERIAL PRIMARY KEY
-CPFFUNCIONARIO CHAR (14) PRIMARY KEY,
+ID_VENDEDOR INT PRIMARY KEY,
 NOME VARCHAR(60) NOT NULL,
 PIS INT NULL,
-CPF INT NULL,
+CPFFUNCIONARIO CHAR (14),
 TELEFONE VARCHAR(15) NOT NULL,
 EMAIL VARCHAR(20),
 CEP CHAR(9) NOT NULL,
@@ -36,32 +45,39 @@ NUMEROCASA SMALLINT NOT NULL,
 COMPLEMENTO VARCHAR(30),
 AGENCIA INT,
 CONTA_BANCARIA INT,
-FOTO VARCHAR(255),
-FOREIGN KEY(CEP) REFERENCES ENDERECO(CEP));
+FOTO VARCHAR(255));
 
-CREATE table produto{
-codigoproduto integer privacy key auto_increment,
-nome varchar(60)not null,
-cor varchar(30)not null,
-valor double not null,
+CREATE table roupa(
+id_roupa INT PRIMARY KEY,
+produto_nome VARCHAR(200),
+quantidade int not null,
 tamanho char(2)not null,
-quantidade integer not null;
-
-CREATE table venda{
-idvenda integer primary key auto_increment,
-data date not null,
+cor varchar(30)not null,
+custo double,
 valor double not null,
-quantidade integer not null,
-cpffuncionario char(14)not null,
-foreign key(codigoproduto)references produto(codigoproduto),
-foreign key(cpffuncionario) references funcionario(cpffuncionario);
+Fornecedor_id_Fornecedor int null);
 
-	quantidade integer not null,
-	codigoproduto integer not null,
-	cpffuncionario char(14)not null,
-	foreign key(codigoproduto)references produto(codigoproduto),
-	foreign key(cpffuncionario)references funcionario(cpffuncionario));
-	
+CREATE TABLE VENDA_ROUPA(
+	ID_VENDA_ROUPA INT PRIMARY KEY AUTO_INCREMENT,
+    ID_ROUPA INT NOT NULL,
+    ID_VENDA INT NOT NULL,
+	quantidade INT null,
+	VALOR DOUBLE NOT NULL, 
+FOREIGN KEY(ID_ROUPA) REFERENCES ROUPA(ID_ROUPA),
+FOREIGN KEY(ID_VENDA) REFERENCES VENDA(ID_VENDA));
+
+
+CREATE table venda(
+id_venda INT primary key auto_increment,
+data date not null,
+valor DOUBLE not null,
+forma_pagamento varchar(200),
+parcelas int null,
+observacoes varchar(200) null,
+ID_VENDEDOR int not null,
+ID_CLIENTE int not null,
+FOREIGN KEY(ID_VENDEDOR) REFERENCES VENDEDOR(ID_VENDEDOR),
+    FOREIGN KEY(ID_CLIENTE) REFERENCES CLIENTE(ID_CLIENTE));
 insert into endereco(cep,rua,bairro,cidade,uf)VALUES
 ('23085-210','Rua Padre Pauwles','Campo Grande', 'Rio de Janeiro', 'RJ'),
 ('26551-090','Travessa Elpidio','Cruzeiro do Sul','Mesquita','RJ');
