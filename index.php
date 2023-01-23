@@ -26,8 +26,8 @@ require_once 'menu.php';
 
 <div class="text-center colorido">
 <a href="#">
- <img class="stamp" src="img\estampa-arco-iris.png" width="160" height="155"></a><!--link 2--><a href="#"><img  class="stamp" src="img\estampa-arco-iris.png" width="160" height="155"> </a><!--link tres-->  <a href="#"> <img class="stamp" src="img\lisa-estampa.png" width="160" height="155"></a> <!--link 4--><a href="#"><img class="stamp" src="img\lisa-estampa.png" width="160" height="155"></a><!--link quatro--><img class="stamp" src="img\estampa-arco-iris.png" width="160" height="155"></a>
-</div>
+<!--link 1--> <a href="#"> <img class="stamp" src="img\lisa-estampa.png" width="160" height="155"></a> <!--link 4--><a href="#"><img class="stamp" src="img\lisa-estampa.png" width="160" height="155"></a><!--link quatro--><!--link 4--><a href="#"><img class="stamp" src="img\lisa-estampa.png" width="160" height="155"></a><!--link 5-->
+<!--link 4--><a href="#"><img class="stamp" src="img\lisa-estampa.png" width="160" height="155"></a></div>
 
 
 
@@ -54,7 +54,7 @@ require_once 'menu.php';
  
 
       <div class="card blue">
-        <img class="image" src="img\fff74d63-a2e8-436d-818a-3b4bb31e74ae.png" alt="settings" />
+        <img class="image ver" src="img\fff74d63-a2e8-436d-818a-3b4bb31e74ae.png" alt="settings" />
         <h2>Conjunto Peace Love.
         </h2>
         <p>R$ 200,00</p>
@@ -92,7 +92,7 @@ require_once 'menu.php';
  
       <div class="card blue">
      
-        <img class="image" src="img\fff74d63-a2e8-436d-818a-3b4bb31e74ae.png" alt="settings" />
+        <img class="image ver" src="img\fff74d63-a2e8-436d-818a-3b4bb31e74ae.png" alt="settings" />
         <h2>Conjunto Peace Love.
         </h2>
         <p>R$ 200,00</p>

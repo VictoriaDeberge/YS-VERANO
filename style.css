@@ -74,7 +74,7 @@ margin-top: 2rem;
    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
    padding: 30px;
    margin: 20px;
-   width: 400px;
+   width: 350px;
    transition: all 0.3s ease-out;
  }
  .card:hover {
@@ -116,19 +116,56 @@ margin-top: 2rem;
 }
 /**index vermais**/
 
+
+
+/**mais vendidos**/
+.vendidos{
+  margin-top: 1%;
+   
+  border-radius: 5px;
+  box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+  color: white;
+  background-color: #000;
+}
+
 /**cad biquinis**/
 .feito{
-  color: aqua;
+  font-family: "Poppins", sans-serif;
 }
-.card-um{
+.preto{
    border-radius: 5px;
    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
    padding: 30px;
    margin: 20px;
-   width: 400px;
+   width: 350px;
    transition: all 0.3s ease-out;
  }
-
+ .vermelho{
+  border-radius: 5px;
+  box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+  padding: 30px;
+  margin: 20px;
+  width: 340px;
+  transition: all 0.3s ease-out;
+ }
+ /*mexendo na img do .vermelho**/
+.ver{
+    
+  padding: 5%;
+    align-items: center;
+    max-width: 250px;
+    max-height: 400px;
+ 
+}
+ .terceiro{
+  border-radius: 5px;
+  box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+  padding: 30px;
+  margin: 20px;
+  width: 350px;
+  transition: all 0.3s ease-out;
+ }
+/**end card biquinis**/
 
 
 /**footer**/

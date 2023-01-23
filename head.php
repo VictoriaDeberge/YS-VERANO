@@ -28,7 +28,7 @@
     -->
     <script src="funcoes.js"></script>
     <script src="https://kit.fontawesome.com/6c3bbfdabc.js" crossorigin="anonymous"></script>
-    <title>YS VERANO</title>
+    <title>YS VERANO  </title>
 </head>
 <body>
 
