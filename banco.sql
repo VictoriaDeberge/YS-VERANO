@@ -1,4 +1,4 @@
- DROP DATABASE IF EXISTS YSVERANO;
+DROP DATABASE IF EXISTS YSVERANO;
 
 CREATE DATABASE YSVERANO CHARACTER SET UTF8 COLLATE UTF8_GENERAL_CI;
 
@@ -7,7 +7,7 @@ CREATE TABLE CATEGORIA(
 ID_CATEGORIA INT PRIMARY KEY,
 DESCRICAO VARCHAR(200));
 
-INSERT INTO categoria (idcategoria,descricao) VALUES
+INSERT INTO categoria (id_categoria,descricao) VALUES
 ('1','conjuno biquini preto curtininha'),
 ('2', 'conjunto biquini vermelho curtininha'),
 ('3','conjuno biquini vermelho veludo curtininha');
@@ -38,6 +38,7 @@ CREATE TABLE FORNECEDOR(
 	EMAIL VARCHAR(20) NOT NULL,
 	CEP CHAR(9) NOT NULL,
     COMPLEMENTO VARCHAR(30),
+
 	CONTA_BANCARIA INT NULL,
 	AGENCIA INT NULL);
 
@@ -83,8 +84,9 @@ valor double not null,
 Fornecedor_id_Fornecedor int null);
 
 insert into roupa(id_roupa,produto_nome,quantidade,tamanho,cor,custo,valor,Fornecedor_id_Fornecedor)VALUES
-('1','conjunto Peace Love biquini preto curtininha','10','P','preto','100',200,'1'),
-('2','conjunto biquini Peace Love vermelho curtininha','15','P','vermelho','150',200,'1'),
+('1','conjunto Peace Love biquini preto curtininha','10','P','preto','100','200','1'),
+('2','conjunto biquini Peace Love vermelho curtininha','15','P','vermelho','150','200','1'),
+('3','maiô foi dental fire','10','M','preto','100','200','2');
 
 
 CREATE table venda(
@@ -100,10 +102,10 @@ FOREIGN KEY(ID_VENDEDOR) REFERENCES VENDEDOR(ID_VENDEDOR),
     FOREIGN KEY(ID_CLIENTE) REFERENCES CLIENTE(ID_CLIENTE));
 /**continuar daqui**/
 insert into venda(data,valor,FORMA_PAGAMENTO,PARCELAS,OBSERVACOES,ID_VENDEDOR,ID_CLIENTE)VALUES
-('2022-12-05','300','crédito','1','vazio','2','1','119554687-45'),
-('2022-12-04','300','2','1','119554687-45'),
-('2022-12-03','300','2',''1,'119554687-45'),
-('2022-12-02','120','1','2','119554687-45');
+('2022-12-05','300','crédito','1','obcervações aqui','1','1'),
+('2022-12-04','300','débito','1','obcervações aqui','2','2'),
+('2022-12-03','300','débito','1','obcervações aqui','3','3'),
+('2022-12-02','120','crédito','1','obcervações aqui','4','4');
 
 
 
@@ -117,14 +119,10 @@ CREATE TABLE VENDA_ROUPA(
 FOREIGN KEY(ID_ROUPA) REFERENCES ROUPA(ID_ROUPA),
 FOREIGN KEY(ID_VENDA) REFERENCES VENDA(ID_VENDA));
 
-
-
-
-
-
-
-
-
+insert into VENDA_ROUPA(ID_VENDA_ROUPA,id_roupa,id_venda,quantidade,valor)VALUES
+('1','2','3','3','200'),
+('2','2','3','3','200'),
+('1','2','3','3','200');
 
 
 
