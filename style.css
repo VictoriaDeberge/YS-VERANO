@@ -19,7 +19,7 @@
 
 /** index**/
 #verano{
-   font-family: "Poppins", sans-serif;
+  font-family: "Playfair display","Poppins", sans-serif;
 font-size: 2rem;
 }
 .verano p{
@@ -55,8 +55,8 @@ margin-top: 1.8rem;
 
 #estampa {
 font-family: "Poppins", sans-serif;
-font-size: 2rem;
-margin-top: 2rem;
+font-size: 1rem;
+margin-top: 1rem;
 
 }
 .stamp{
@@ -130,7 +130,7 @@ margin-top: 2rem;
 
 /**cad biquinis**/
 .feito{
-  font-family: "Poppins", sans-serif;
+  font-family: "Playfair display","Poppins", sans-serif;
 }
 .preto{
    border-radius: 5px;
@@ -166,8 +166,10 @@ margin-top: 2rem;
   transition: all 0.3s ease-out;
  }
 /**end card biquinis**/
-
-
+/**ARPOADOR**/
+.dropdown{
+   align-items: center;
+}
 /**footer**/
 .footer{
   margin-top: 7%;

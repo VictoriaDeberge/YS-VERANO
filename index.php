@@ -17,7 +17,7 @@ require_once 'menu.php';
     </div>
     <div class="carousel-item">
       <!--ver com a prof-->
-    <a href="#arpoador" ><img class="d-block w-100" src="img\colecaoarpoadorbanner.png" alt="Second slide"></a> 
+    <a href="biquini.php#arpoador" ><img class="d-block w-100" src="img\colecaoarpoadorbanner.png" alt="Second slide"></a> 
       <!---->
     </div>
     <div class="carousel-item">
