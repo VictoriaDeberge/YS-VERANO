@@ -99,7 +99,7 @@ require_once 'menu.php';
 <!--cads maios-->
 <div class="row">
       <div class="card preto">
-        <img class="image" src=        alt="money" />        
+        <img class="image" src=mulher-maio-jpg       alt="money" />        
         <h2>Conjunto Peace Love.
         </h2>
         <p>R$ 200,00</p>
@@ -109,7 +109,7 @@ require_once 'menu.php';
  
       <div class="card vermelho">
      
-        <img class="image ver" src="         alt="settings" />
+        <img class="image ver" src=retrato-de-uma-mulher-linda-sexy-com-corpo-perfeito-vestindo-maio-amarelo        alt="settings" />
         <h2>Conjunto Peace Love.
         </h2>
         <p>R$ 200,00</p>
@@ -118,7 +118,7 @@ require_once 'menu.php';
       </div>
  
      <div class="card terceiro">
-        <img class="image" src="             alt="article" />
+        <img class="image" src=retrato-da-bela-mulher-morena-sorridente-no-fundo-branco.jpg.jpg            alt="article" />
         <h2>Conjunto Peace Love.
         </h2>
         <p>R$ 200,00</p>
